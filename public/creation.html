@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Creation Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Good+Times">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="creation.js"></script>
+  </head>
+  
+
+  <!-- Home Page -->
+  <main id="createorjoinpage">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="left-side" class="col-6">
+          <p class="goodTime line1 underlines hoverpointer smallhover" id="join">JOIN A</p>
+          <p id="LEA" class="endZone line2">LEA</p>
+          <p class="goodTime line3 move1">JOIN THE MADNESS</p>
+          <p class="goodTime line3 move3">OF EXISTING LEAGUES</p>
+        </div>
+        <div id="right-side" class="col-6">
+          <p class="goodTime line1 underlines hoverpointer smallhover" id="create">CREATE A</p>
+          <p class="endZone line2">GUE</p>
+          <p class="goodTime line3 move2">BE THE COMMISSIONER</p>
+          <p class="goodTime line3 move4">CREATE YOUR OWN LEAGUES</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Create League Page -->
+  <main id = createleaguepage>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="leftsideleaguecreate" class="col-6">
+          <div class="arrow-left smallhover hoverpointer" id="leftarrow"></div>
+          <p class="goodTime leaguecreateline1 biggertop">CREATE A</p>
+          <p class="goodTime leaguecreateline2">LEAGUE</p>
+        </div>
+        <div id="rightsideleaguecreate" class="col-6">
+          <form class="biggertop">
+            <div class="form-group">
+              <label for="leagueName">League Name</label>
+              <input type="text" class="form-control" id="leagueName" placeholder="Enter League Name">
+            </div>
+            <div class="form-group">
+              <label for="leagueType">League Type</label>
+              <select class="form-control" id="leagueType">
+                <option value="football">Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="hockey">Hockey</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="numPlayers">Number of Players</label>
+              <select class="form-control" id="numberOfPlayers">
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="draftTime">Draft Time</label>
+              <input type="datetime-local" class="form-control" id="draftTime">
+            </div>
+            <div class="form-group">
+              <label for="leagueType">League Privacy</label>
+              <select class="form-control" id="leaguePrivacy">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+              </select>
+            </div>
+            <a href="leaguehome.html" class="btn btn-primary">CREATE</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- Join League Page -->
+  <main id = joinleaguepage>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="leftsideleaguejoin" class="col-6">
+          <form class="toppadding topmargin" id="joinBtn">
+            <div class="form-group">
+              <label class="bigbold smalltopmargin" for="leagueCode">Private League</label>
+              <input type="text" class="form-control" id="leagueCode" placeholder="Enter League Invite Code">
+            </div>
+            <a href="leaguehome2.html" class="btn btn-primary">JOIN</a>
+          </form>
+          <p class= "topmargin bigbold">Public League</p>
+
+          <div class="publicrow">
+            <div class="publicleague hoverpointer smallhover">
+              <p class="publicleagueinfo">League Name: <strong><span id="publicleaguename1">Epic Sports League</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">League Type: <strong><span id="publicleaguetype1">Hockey</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Current Number of Players: <strong><span id="publicleagueplayers1">2</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Max Number of Players: <strong><span id="publicleaguemax1">10</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Draft Time: <strong><span id="publicleaguetime1">03/06/2024 10:30 AM</span></strong></p>
+            </div>
+            <div class="publicleague hoverpointer smallhover">
+              <p class="publicleagueinfo">League Name: <strong><span id="publicleaguename2">Dr. Callahan's League</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">League Type: <strong><span id="publicleaguetype2">Football</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Current Number of Players: <strong><span id="publicleagueplayers2">7</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Max Number of Players: <strong><span id="publicleaguemax2">16</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Draft Time: <strong><span id="publicleaguetime2">03/04/2024 02:15 PM</span></strong></p>
+            </div>
+          </div>
+          <div class="publicrow">
+            <div class="publicleague hoverpointer smallhover">
+              <p class="publicleagueinfo">League Name: <strong><span id="publicleaguename3">Team 2 is the Best</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">League Type: <strong><span id="publicleaguetype3">Hockey</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Current Number of Players: <strong><span id="publicleagueplayers3">6</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Max Number of Players: <strong><span id="publicleaguemax3">12</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Draft Time: <strong><span id="publicleaguetime3">03/03/2024 02:30 PM</span></strong></p>
+            </div>
+            <div class="publicleague hoverpointer smallhover">
+              <p class="publicleagueinfo">League Name: <strong><span id="publicleaguename4">Team 2 is still the Best</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">League Type: <strong><span id="publicleaguetype4">Football</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Current Number of Players: <strong><span id="publicleagueplayers4">4</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Max Number of Players: <strong><span id="publicleaguemax4">6</span></strong></p>
+              <p class="publicleagueinfo lesstopmargin">Draft Time: <strong><span id="publicleaguetime4">03/03/2024 12:00 PM</span></strong></p>
+            </div>
+          </div>
+
+        </div>
+        <div id="rightsideleaguejoin" class="col-6">
+          <div class="arrow-right hoverpointer smallhover" id="rightarrow"></div>
+          <p class="goodTime leaguejoinline1 biggesttop">JOIN A</p>
+          <p class="goodTime leaguejoinline2">LEAGUE</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class = "row" id="fixit">
+    <div class = "col-1">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+    </div>
+    <div class = "col-9">
+      <div class="row" id="navBar">
+
+        <a href="news.html" id="navNews" class="goodTime navLinks"><span class="white">NEWS</span></a>
+        <a href="./leaderboard.html" id="navRanking" class="goodTime navLinks"><span class="white">LEADERBOARD</span></a>
+        <p id="nav1" class="goodTime">RP</p>
+        <p id="nav2" class="goodTime">LEAGUE</p>
+        <a href="creation.html" id="navRoster" class="goodTime navLinks"><span class="white">LEAGUES</span></a>
+        <a href="profile.html" id="navLeague" class="goodTime navLinks"><span class="white">PROFILE</span></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</html>

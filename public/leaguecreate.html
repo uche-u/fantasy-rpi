@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create A Leage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Good+Times">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="creation.js"></script>
+</head>
+<main>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="leftsideleaguecreate" class="col-6">
+        <p class="goodTime leaguecreateline1">CREATE A</p>
+        <p class="goodTime leaguecreateline2">LEAGUE</p>
+      </div>
+      <div id="rightsideleaguecreate" class="col-6">
+        <form class="topmargin">
+          <div class="form-group">
+            <label for="leagueName">League Name</label>
+            <input type="text" class="form-control" id="leagueName" placeholder="Enter League Name">
+          </div>
+          <div class="form-group">
+            <label for="leagueType">League Type</label>
+            <select class="form-control" id="leagueType">
+              <option value="football">Football</option>
+              <option value="basketball">Basketball</option>
+              <option value="hockey">Hockey</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="numPlayers">Number of Players</label>
+            <select class="form-control" id="numberOfPlayers">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="draftTime">Draft Time</label>
+            <input type="datetime-local" class="form-control" id="draftTime">
+          </div>
+          <div class="form-group">
+            <label for="leagueType">League Privacy</label>
+            <select class="form-control" id="leaguePrivacy">
+              <option value="public">Public</option>
+              <option value="private">Private</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+</html>

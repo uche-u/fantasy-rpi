@@ -1,0 +1,286 @@
+@font-face {
+    font-family: goodTimes;
+    src: url(good\ times\ rg.otf);
+  }
+  
+@font-face {
+    font-family: endzone;
+    src: url(ENDZONE.TTF);
+}
+@font-face {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('OPTIMA.woff') format('woff');
+    }
+  
+body {
+    background-color: #FFE459;
+    /*background-image: linear-gradient(to bottom, #FFE459 50%, red 50%);*/
+   
+}
+
+.goodTime {
+    font-family: goodTimes;
+  }
+
+.logo img {
+    width: 80px; 
+    height: auto;
+    margin: 20px;
+  }
+  
+  #navNews:before,
+  #navRanking:before,
+  #navRoster:before,
+  #navLeague:before
+   {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #f56a52;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+  
+  }
+  
+  #navNews:hover:before,
+  #navRanking:hover:before,
+  #navRoster:hover:before,
+  #navLeague:hover:before
+   {
+    width: 100%;
+    bottom: 30px;
+  
+  }
+  
+  #navNews {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-top: 2%;
+    left: 27%;
+    font-size: 16px;
+  }
+  
+  #navRanking {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-top: 2%;
+    left: 32%;
+    font-size: 16px;
+  }
+  
+  #navRoster {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-top: 2%;
+    left: 35%;
+    font-size: 16px;
+  }
+  
+  #navLeague {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-top: 2%;
+    left: 40%;
+    font-size: 16px;
+  }
+  
+  #nav1{
+    position: relative;
+    padding-top: 1%;
+    left: 37.5%;
+    font-size: 24px;
+  }
+  #nav2{
+    position: relative;
+    padding-top: 3%;
+    left: 31.4%;
+    font-size: 24px;
+  }
+  
+  #nav-underline{
+    color:black;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+    position:relative;
+    left: 40.5%;
+    width: 20%;
+  }
+  
+  .navLinks{
+    color:black;
+    font-family: goodTimes;
+  }
+  
+
+#text1{
+    display: flex;
+    font-family: goodTimes;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+.parallax{
+    /* The image used */
+  background-image: url("img1.png");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#tagline{
+  display: flex;
+  font-family: Optima;
+  flex-direction: column;
+  color: white;
+  padding-top: 175px;
+  font-size: 30px;
+  align-items: center;
+}
+
+#description{
+    margin: 30px;
+    font-family: Optima;
+    font-size: 20px; 
+   
+}
+
+.accCreate{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    margin-left: 33%;
+}
+.accCreate label{
+    font-family: goodTimes;
+}
+
+.btn{
+    font-family: goodTimes;
+    background-color: black;
+}
+
+#passwordHelp2 {
+    color:#FFE459;
+}
+
+#signupform {
+    border-bottom: 2px solid black;
+}
+
+#signupform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#loginform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/*LEAGUE HOME*/
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+
+.stretched-link{
+    text-decoration: none;
+    font-family: goodTimes;
+    color:black;
+    font-size: 30px;
+}
+.stretched-link:hover {
+    color:black;
+}
+
+#mainbtns .card-body{
+    padding-top: 20px;
+}
+
+#mainbtns{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid black;
+    margin-left: 47%;
+}
+
+#fixit {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: black;
+}
+
+.waydown {
+    padding-top: 6%;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.upperright {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -9%;
+}
+
+.blue {
+    background-color: #FFE459;
+}
+
+.hoverpointer:hover {
+    cursor: pointer;
+  }
+
+#signout:hover {
+    cursor: pointer;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid white;
+    margin-top: 46%;
+    margin-left: -1%;
+  }

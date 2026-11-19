@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RPL - Rensselaer Polytechnic League </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="homepage.js"></script>
+  </head>
+
+
+<body>
+  <div id="left-side" class="col-12">
+    <div class = "row" id="fixit">
+      <div class = "col-1">
+        <div class="logo">
+          <img src="logo.png" alt="Logo">
+      </div>
+      </div>
+      <div class = "col-9">
+        <div class="row" id="navBar">
+          <a href="#" id="navNews" class="goodTime navLinks homelink"><span class="white">NEWS</span></a>
+          <a href="#" id="navRanking" class="goodTime navLinks homelink"><span class="white">LEADERBOARD</span></a>
+          <p id="nav1" class="goodTime">RP</p>
+          <p id="nav2" class="goodTime">LEAGUE</p>
+          <a href="#" id="navRoster" class="goodTime navLinks homelink"><span class="white">LEAGUES</span></a>
+          <a href="#" id="navLeague" class="goodTime navLinks homelink"><span class="white">PROFILE</span></a>
+        </div>
+      </div>
+    </div>
+      
+    
+    <div class="waydown">
+      <hr id="nav-underline">
+      <div id= "text1">
+        <p>RPI</p>
+        <p>FANTASY LEAGUE</p>
+        </div>
+    </div>
+    <div class="parallax">
+        <p id="tagline">Join RPI's exclusive Fantasy Sports League - Sign up/Log in below!</p>
+    </div>
+    <div class="shadow p-3 mb-5 bg-body rounded" id="description">
+        <p><em> Rensselaer Polytechnic League </em> gives students the fun experience of managing sports leagues and curating their very own roster for RPI and using our very own RPI athletes.
+        The goal is to promote interest in RPI athletics amongst the students, bring fantasy leagues to the college sphere, and have fun with friends!</p>  
+    </div>
+    <div class="accCreate">
+        
+        <form onsubmit="return verifyPassword()" action="./creation.html">
+          <span id="signupform">Sign Up</span> &emsp; <span id="loginform">Log In</span>
+          <br>
+          <br>
+          <div id="homepageform">
+              
+
+
+            <div class="form-group">
+              <label for="exampleInputUsername"> Username </label>
+              <input type="username" class="form-control" id="exampleInputUsername" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <small id="passwordHelp" class="form-text text-muted">Your password must be greater than 8 characters and contain at least 1 number.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleConfirmPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleConfirmPassword1" placeholder="Confirm Password">
+        </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+  
+
+
+          </div>
+          </form>
+    </div>
+    
+</body>
+
+
+
+
+</html>
+ 
