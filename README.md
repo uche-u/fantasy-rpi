@@ -1,4 +1,4 @@
-# Web Science Systems Development team2
+# WSSD team2
 
 ## Citations
 1. [Font: Good Times](https://en.bestfonts.pro/font/good-times)
