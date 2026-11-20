@@ -1,0 +1,262 @@
+@font-face {
+    font-family: goodTimes;
+    src: url('../../fonts/Good Times/GoodTimesRg-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: endzone;
+    src: url(../../fonts/EndZone/ENDZONE.TTF);
+  }
+@font-face {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('../../fonts/Optima/OPTIMA.woff') format('woff');
+    }
+  
+body {
+    background-color: #FFE459;
+    /*background-image: linear-gradient(to bottom, #FFE459 50%, red 50%);*/
+   
+}
+
+.goodTime {
+    font-family: goodTimes;
+  }
+
+.logo img {
+    width: 80px; 
+    height: auto;
+    margin: 20px;
+  }
+  
+#text1{
+    display: flex;
+    font-family: goodTimes;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+.parallax{
+    /* The image used */
+  background-image: url("./img1.png");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#tagline{
+  display: flex;
+  font-family: Optima;
+  flex-direction: column;
+  color: white;
+  padding-top: 175px;
+  font-size: 30px;
+  align-items: center;
+}
+
+#description{
+    margin: 30px;
+    font-family: Optima;
+    font-size: 20px; 
+   
+}
+
+.accCreate{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    margin-left: 33%;
+}
+.accCreate label{
+    font-family: goodTimes;
+}
+
+.btn{
+    font-family: goodTimes;
+    background-color: black;
+}
+
+#passwordHelp2 {
+    color:#FFE459;
+}
+
+#signupform {
+    border-bottom: 2px solid black;
+}
+
+#signupform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#loginform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/*LEAGUE HOME*/
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+
+.stretched-link{
+    text-decoration: none;
+    font-family: goodTimes;
+    color:black;
+    font-size: 30px;
+}
+.stretched-link:hover {
+    color:black;
+}
+
+#mainbtns .card-body{
+    padding-top: 20px;
+}
+
+#mainbtns{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid black;
+    margin-left: 47%;
+}
+
+
+
+.waydown {
+    padding-top: 6%;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.upperright {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -9%;
+}
+
+.blue {
+    background-color: #FFE459;
+}
+
+.hoverpointer:hover {
+    cursor: pointer;
+  }
+
+#signout:hover {
+    cursor: pointer;
+}
+
+.arrow-left {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid white;
+    z-index: 1050;
+    cursor: pointer;
+}
+
+.arrow-left:hover {
+    transform: scale(0.8);
+    transition: transform 0.2s;
+}
+
+
+
+.smallhover:hover {
+    transform: scale(0.9);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.leftarrow2 {
+    margin-top: 2.5%;
+}
+
+/* LeagueOwnerPage.css */
+#leftarrow1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid white;
+    margin-top: -9%;
+    margin-left: 0;
+}
+/* Modal container */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's above other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hide the modal by default */
+  .display-none {
+    display: none;
+  }
+  
+  /* Show the modal */
+  .display-block {
+    display: block;
+  }
+  
+  /* Modal content */
+  .modal-main {
+    background-color: lightgrey;
+    position: absolute;
+    border-radius: 8px;
+    width: 400px; /* Adjust the width as needed */
+    margin-left: 38%;
+    margin-top: 25%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+  /* Close button */
+  .modal-main button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333; /* Close button color */
+  }
+  

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: goodTimes;
+  src: url('../../fonts/Good Times/GoodTimesRg-Regular.ttf');
+}
+
+@font-face {
+  font-family: endzone;
+  src: url(../../fonts/EndZone/ENDZONE.TTF);
+}
+@font-face {
+  font-family: Optima;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima'), url('../../fonts/Optima/OPTIMA.woff') format('woff');
+  }
+
+body {
+  background-color: #FFE459;
+  /*background-image: linear-gradient(to bottom, #FFE459 50%, red 50%);*/
+ 
+}
+
+.goodTime {
+  font-family: goodTimes;
+}
+
+.logo img {
+  width: 80px; 
+  height: auto;
+  margin: 20px;
+}
+
+.left {
+  padding-top: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: left;
+}
+
+.beeg {
+  padding-top: 1%;
+}
+
+#tipsandtricks {
+  margin-top: -10%;
+}

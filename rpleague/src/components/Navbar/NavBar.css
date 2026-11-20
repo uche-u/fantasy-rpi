@@ -1,0 +1,150 @@
+@font-face {
+    font-family: goodTimes;
+    src: url('../../fonts/Good Times/GoodTimesRg-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: endzone;
+    src: url('../../fonts/EndZone/ENDZONE.TTF');
+  }
+  
+  #fixit {
+    position: absolute;
+    width: 101%;
+    top: 0;
+    z-index: 1000;
+    color: white;
+    background-color: orangered;
+  }
+
+  
+
+  #navNews:before,
+#navRanking:before,
+#navRoster:before,
+#navLeague:before {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #f56a52;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+
+}
+
+#navNews:hover:before,
+#navRanking:hover:before,
+#navRoster:hover:before,
+#navLeague:hover:before {
+  width: 100%;
+  bottom: 30px;
+
+}
+
+#navNews:hover {
+  cursor: pointer;
+}
+
+#navRanking:hover {
+  cursor: pointer;
+}
+
+#navRoster:hover {
+  cursor: pointer;
+}
+
+#navLeague:hover {
+  cursor: pointer;
+}
+
+#navNews {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-top: 2%;
+  left: 27%;
+  font-size: 16px;
+}
+
+#navRanking {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-top: 2%;
+  left: 32%;
+  font-size: 16px;
+}
+
+#navRoster {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-top: 2%;
+  left: 35%;
+  font-size: 16px;
+}
+
+#navLeague {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-top: 2%;
+  left: 40%;
+  font-size: 16px;
+}
+
+
+#nav-underline {
+    color: black;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    left: 40.5%;
+    width: 20%;
+  }
+  
+  .navLinks {
+    color: black;
+  }
+
+  .endZone {
+    font-family: endzone, sans-serif;
+  }
+  
+  .goodTime {
+    font-family: goodTimes, serif;
+  }
+
+  .black {
+    color: black;
+  }
+
+  #nav1 {
+    position: relative;
+    padding-top: 1%;
+    left: 38.5%;
+    font-size: 24px;
+  }
+  
+  #nav2 {
+    position: relative;
+    padding-top: 3%;
+    left: 32.2%;
+    font-size: 24px;
+  }
+
+  #logo {
+    width: 95%;
+    height: 95%;
+  }
+
+  .thelogo {
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+
+  

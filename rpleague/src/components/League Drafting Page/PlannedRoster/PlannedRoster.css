@@ -1,0 +1,64 @@
+/* File path: src/components/PlannedRoster/PlannedRoster.css */
+
+.planned-roster {
+    font-family: 'Good Times', sans-serif;
+
+    background-color: #FFFBE8;
+    border-radius: 15px;
+
+    padding: 20px; /* Padding inside the box */
+
+    margin: auto; /* Vertical centering, it works with display:flex of the parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical centering */
+
+    height: fit-content;
+
+    position: fixed;
+    left: 0;
+
+    top: 50%;
+    transform: translateY(-50%); /* Vertical centering */
+}
+
+.planned-roster-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.title-underline {
+    display: block;
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: auto;
+    width: 95%;
+}
+
+.roster-list {
+    list-style-type: none; /* Remove default list styling */
+}
+
+.roster-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.roster-cell {
+    padding: 5px 10px;
+
+    text-align: center;
+}
+
+/* can add media query for responsive adjustment if needed */
+@media (max-width: 768px) {
+    .planned-roster {
+        position: static;
+        transform: none;
+        top: 0;
+        left: 0;
+        margin: 20px auto;
+    }
+}

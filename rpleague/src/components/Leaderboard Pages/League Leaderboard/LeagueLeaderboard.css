@@ -1,0 +1,45 @@
+.leaderboard-container {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Optima', sans-serif;
+}
+
+.leaderboard-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'goodTimes', sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leaderboard-item {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.leaderboard-item:last-child {
+    border-bottom: none;
+}
+
+
+.leaderboard-item strong {
+    font-weight: bold;
+}

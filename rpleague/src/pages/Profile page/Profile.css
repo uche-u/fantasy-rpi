@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'goodTimes';
+  src: url('../../fonts/Good Times/GoodTimesRg-Regular.ttf');
+}
+
+body, html {
+  font-family: 'goodTimes', sans-serif; /* Apply the custom font to all text */
+}
+
+.container-fluid1 {
+  padding: 25px;
+  display: flex; /* Using flexbox for center alignment */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Align children to the center horizontally */
+  width: 100%; /* Take full width to center content */
+}
+
+.nav-underline {
+  margin-bottom: 20px;
+  width: 100%; /* Ensure full width underlines */
+  text-align: center; /* Center the text */
+}
+
+
+
+
+
+
+.profile-section {
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f7f9fc; /* Very light grey for profile-box */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-content {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #EFEFEF; /* White background for profile-content */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info {
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-details {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #dfe3e6; /* Slightly darker grey for user-details */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.league-section {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.league-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #333;
+  padding: 10px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.created-leagues, .joined-leagues {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.league {
+  margin-top: 10px;
+  background-color: #84D06A;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.details-section {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+}
+
+.league:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.user-name-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-details {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.league {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #84D06A;
+  padding: 8px 0 15px 0;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.details-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.details-list {
+  width: 100%;
+}
+
+.details-list li {
+  list-style-type: none;
+  padding: 5px;
+  text-align: left;
+}
+
+.btn.blue {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sign-out {
+  border: none;
+}

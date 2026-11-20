@@ -1,0 +1,165 @@
+@font-face {
+    font-family: goodTimes;
+    src: url('../../fonts/Good Times/GoodTimesRg-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: endzone;
+    src: url(../../fonts/EndZone/ENDZONE.TTF);
+  }
+@font-face {
+    font-family: Optima;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('../../fonts/Optima/OPTIMA.woff') format('woff');
+    }
+  
+body {
+    background-color: #FFE459;
+    /*background-image: linear-gradient(to bottom, #FFE459 50%, red 50%);*/
+   
+}
+
+.goodTime {
+    font-family: goodTimes;
+  }
+
+.logo img {
+    width: 80px; 
+    height: auto;
+    margin: 20px;
+  }
+  
+#text1{
+    display: flex;
+    font-family: goodTimes;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+
+
+#tagline{
+  display: flex;
+  font-family: Optima;
+  flex-direction: column;
+  color: white;
+  padding-top: 175px;
+  font-size: 30px;
+  align-items: center;
+}
+
+#description{
+    margin: 30px;
+    font-family: Optima;
+    font-size: 20px; 
+   
+}
+
+.accCreate{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    margin-left: 33%;
+}
+.accCreate label{
+    font-family: goodTimes;
+}
+
+.btn{
+    font-family: goodTimes;
+    background-color: black;
+}
+
+#passwordHelp2 {
+    color:#FFE459;
+}
+
+#signupform {
+    border-bottom: 2px solid black;
+}
+
+#signupform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#loginform:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/*LEAGUE HOME*/
+
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    gap: 0px;
+    
+}
+
+.stretched-link{
+    text-decoration: none;
+    font-family: goodTimes;
+    color:black;
+    font-size: 30px;
+}
+.stretched-link:hover {
+    color:black;
+}
+
+#mainbtns .card-body{
+    padding-top: 20px;
+}
+
+#mainbtns{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid black;
+    margin-left: 47%;
+}
+
+#arrow-down-drafting:hover{
+    transform: scale(0.8);
+    transition: transform 0.2s;
+}
+
+
+.fullwidth {
+    width: 100%;
+}
+
+.arrow-left {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid white;
+    z-index: 1050;
+    cursor: pointer;
+  }
+
+.arrow-left:hover {
+    transform: scale(0.8);
+    transition: transform 0.2s;
+}
+  

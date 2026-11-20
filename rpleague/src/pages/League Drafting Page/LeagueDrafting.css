@@ -1,0 +1,40 @@
+/* File path: src/components/League Drafting Page/LeagueDrafting.css */
+
+.league-drafting-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    height: 100%;
+    box-sizing: border-box; /* includes padding in height calculation */
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.planned-roster,
+.current-roster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planned-roster {
+    align-self: flex-start;
+}
+
+.current-roster {
+    align-self: flex-end;
+}

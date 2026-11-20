@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "position": "Guard",
+    "lastName": "Doe",
+    "firstName": "John",
+    "playerNumber": "11"
+  },
+  {
+    "id": "2",
+    "position": "Forward",
+    "lastName": "Smith",
+    "firstName": "Jane",
+    "playerNumber": "22"
+  },
+  {
+    "id": "3",
+    "position": "Center",
+    "lastName": "Brown",
+    "firstName": "Bob",
+    "playerNumber": "33"
+  },
+  {
+    "id": "4",
+    "position": "Guard",
+    "lastName": "Doe",
+    "firstName": "John",
+    "playerNumber": "11"
+  },
+  {
+    "id": "5",
+    "position": "Forward",
+    "lastName": "Smith",
+    "firstName": "Jane",
+    "playerNumber": "22"
+  },
+  {
+    "id": "6",
+    "position": "Center",
+    "lastName": "Brown",
+    "firstName": "Bob",
+    "playerNumber": "33"
+  }
+]

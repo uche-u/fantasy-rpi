@@ -1,0 +1,79 @@
+/* File path: src/components/DraftOrder/DraftOrder.css */
+
+@font-face {
+    font-family: goodTimes-Bold;
+    src: url('../../../fonts/Good Times/GoodTimesRg-Bold.ttf');
+}
+
+.draft-order {
+    width: 40%;
+    text-align: left;
+}
+
+.draft-order-title {
+    font-family: goodTimes-Bold, serif;
+}
+
+.profile-row {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.profile-pic-container {
+    flex: none;
+    position: relative;
+}
+
+.profile-pic {
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+.highlighted:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1; /* circle behind the image */
+}
+
+.player-list-title {
+    font-family: goodTimes-Bold, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.player-list {
+    font-family: goodTimes, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black; /* Separate each row with a black line */
+    padding: 10px 0 10px 0;
+}
+
+.player-row-selected {
+    background-color: lightblue; /* Change the background color to lightblue */
+}
+
+.player-info {
+    flex: 1;
+    text-align: center;
+}
+
+.player-number {
+    text-align: right; /* Align player number to the right */
+    flex: 0.5; /* Smaller flex basis to keep number close to profile pic */
+}
